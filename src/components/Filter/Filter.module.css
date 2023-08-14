@@ -1,0 +1,20 @@
+.label {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  letter-spacing: 0.05rem;
+}
+
+.input {
+  min-width: 240px;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  font-size: 14px;
+  font-weight: bolder;
+  letter-spacing: 0.05rem;
+}

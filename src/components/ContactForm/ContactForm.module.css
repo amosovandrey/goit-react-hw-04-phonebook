@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-size: 16px;
+}
+
+.label {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  letter-spacing: 0.05rem;
+}
+
+.input {
+  min-width: 240px;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  font-size: 14px;
+  font-weight: bolder;
+  letter-spacing: 0.05rem;
+}
+
+.button {
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid whitesmoke;
+  outline: none;
+  background-color: #301e67;
+  font-size: 14px;
+  font-weight: bolder;
+  letter-spacing: 0.05rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+  transition: 250ms ease-in-out;
+}
+
+.button:is(:hover, :focus) {
+  background-color: #b6eada;
+  color: #03001c;
+  border-color: #03001c;
+  transform: scale(1.05);
+}

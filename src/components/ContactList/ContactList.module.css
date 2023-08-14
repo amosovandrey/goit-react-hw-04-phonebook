@@ -1,0 +1,70 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 240px;
+}
+
+.list__item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: bolder;
+  color: #301e67;
+  letter-spacing: 0.05rem;
+  text-transform: capitalize;
+
+  transition: 250ms ease-in-out;
+}
+
+.list__item:hover {
+  transform: scale(1.05);
+}
+
+.list__item__name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 110px;
+}
+
+.list__item__number {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 110px;
+}
+
+.list__delete__btn {
+  width: 18px;
+  height: 18px;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2px;
+  border-radius: 4px;
+
+  border: 1px solid whitesmoke;
+  outline: none;
+  background-color: #301e67;
+
+  font-weight: bolder;
+
+  color: whitesmoke;
+
+  transition: 250ms ease-in-out;
+}
+
+.list__delete__btn:is(:hover, :focus) {
+  background-color: #e34a4a;
+  color: #03001c;
+  border-color: #03001c;
+  transform: scale(1.05);
+}

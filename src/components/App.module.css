@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 24px auto;
+  background-color: #5b8fb9;
+  border-radius: 8px;
+  gap: 24px;
+  border: 2px solid whitesmoke;
+}
